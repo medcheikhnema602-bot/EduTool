@@ -1,0 +1,51 @@
+Script started on 2025-11-11 20:46:25+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="54" LINES="25"]
+scriptC[?2004h[0;32m~[0m [0;97m$[0m scriptC
+[?2004lNo command scriptC found, did you mean:
+ Command script6 in package ipv6toolkit
+ Command script in package util-linux
+[?2004h[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m ls scrip
+[?2004lscrip
+[?2004h[0;32m~[0m [0;97m$[0m ls script
+[?2004lscript
+[?2004h[0;32m~[0m [0;97m$[0m ls scriptC
+[?2004lscriptC
+[?2004h[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m find ~ -type f -name "*.py"
+[?2004l/data/data/com.termux/files/home/.py
+[?2004h[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m cd ~/.py
+[?2004lbash: cd: /data/data/com.termux/files/home/.py: Not a directory
+[?2004h[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m ls
+[?2004ledutool  script   tasks.json
+scrip    scriptC  typescript
+[?2004h[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m cd ~
+[?2004l[?2004h[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m git init
+[?2004lReinitialized existing Git repository in /data/data/com.termux/files/home/.git/
+[?2004h[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m git add edutool tasks.json
+[?2004l[?2004h[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m python task h[Kjesob[Kn
+[?2004l/data/data/com.termux/files/usr/bin/python: can't open file '/data/data/com.termux/files/home/task': [Errno 2] No such file or directory
+[?2004h[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m python te[Kasks [K.jeson[K[0;32m~[0m [0;97m$[0m python tasks.jeson[K[0;32m~[0m [0;97m$[0m python tasks.jesonl[K[K[K[K[Kson[K[0;32m~[0m [0;97m$[0m python tasks.json[K[0;32m~[0m [0;97m$[0m python tasks.json
+[?2004lTraceback (most recent call last):
+  File "/data/data/com.termux/files/home/tasks.json", line 4, in <module>
+    "done": false
+            ^^^^^
+NameError: name 'false' is not defined. Did you mean: 'False'?
+[?2004h[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m nono tasks [K.jeso[K[K[Kson [K .py
+[?2004lNo command nono found, did you mean:
+ Command nona in package hugin from the x11-repo repository
+ Command mono in package mono
+ Command nano in package nano
+[?2004h[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m s[K[K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m cd ~
+[?2004l[?2004h[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m ls
+[?2004ledutool  script   tasks.json
+scrip    scriptC  typescript
+[?2004h[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m git init
+[?2004lReinitialized existing Git repository in /data/data/com.termux/files/home/.git/
+[?2004h[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m git add .
+[?2004l[?2004h[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m git commit -m "Initial commit"
+[?2004l[main c66a8a1] Initial commit
+ 2 files changed, 16 insertions(+)
+ create mode 100644 typescript
+[?2004h[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m git remote add origin https://github.com/medcheikhnema602-bot/EduTool.git
+[?2004lerror: remote origin already exists.
+[?2004h[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m [K[0;32m~[0m [0;97m$[0m git remote -v
+[?2004lorigin	https://github.com/medcheikhnema602-bot/EduTool.git (fetch)
+origin	https://github.c

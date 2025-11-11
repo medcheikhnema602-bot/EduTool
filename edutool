@@ -1,0 +1,58 @@
+import json
+import os
+
+FILENAME = "tasks.json"
+
+def load_tasks():
+    if os.path.exists(FILENAME):
+        with open(FILENAME, "r") as f:
+            return json.load(f)
+    return []
+
+def save_tasks(tasks):
+    with open(FILENAME, "w") as f:
+        json.dump(tasks, f, indent=4)
+
+def show_menu():
+    print("\n🎓 EduTool - Student Helper 🎓")
+    print("1. ➕ Add task")
+    print("2. 📋 View tasks")
+    print("3. ✅ Mark task as done")
+    print("4. ❌ Delete task")
+    print("5. 💾 Exit")
+
+def main():
+    tasks = load_tasks()
+    while True:
+        show_menu()
+        choice = input("Choose an option: ")
+
+        if choice == "1":
+            task = input("Enter task: ")
+            tasks.append({"task": task, "done": False})
+            save_tasks(tasks)
+            print("Task added ✅")
+        elif choice == "2":
+            for i, t in enumerate(tasks):
+                status = "✔️" if t["done"] else "❌"
+                print(f"{i+1}. {t['task']} {status}")
+        elif choice == "3":
+            num = int(input("Enter task number to mark done: ")) - 1
+            if 0 <= num < len(tasks):
+                tasks[num]["done"] = True
+                save_tasks(tasks)
+                print("Marked as done! ✅")
+        elif choice == "4":
+            num = int(input("Enter task number to delete: ")) - 1
+            if 0 <= num < len(tasks):
+                tasks.pop(num)
+                save_tasks(tasks)
+                print("Task deleted 🗑️")
+        elif choice == "5":
+            print("Goodbye 👋")
+            break
+        else:
+            print("Invalid choice ❗")
+
+if __name__ == "__main__":
+    main()
